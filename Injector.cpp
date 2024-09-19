@@ -5,7 +5,7 @@
 
 //**//
 std::wstring processName = L"example.exe"; // Replace with the actual process name
-std::string dllName = L"example.dll"; // Replace with the actual DLL name
+std::string dllName = "example.dll"; // Replace with the actual DLL name
 //**//
 
 DWORD GetProcessIdByName(const std::wstring& processName) {
